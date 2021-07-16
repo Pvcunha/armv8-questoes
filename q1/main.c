@@ -1,10 +1,10 @@
 #include <stdio.h>
 
-extern void soma(long long int *a, long long int *b, long long int *res);
+extern void teste(long long int *a, long long int *b, long long int *res);
 
 int main() {
-	long long int a=1, b=2, c;
-	soma(&a, &b, &c);
-	printf("%lld\n", c);
+	long long int a=5, b=5, m;
+	teste(&a, &b, &m);
+	printf("%lld\n%lld\n%lld\n",a, b, m);
 	return 0;
 }
